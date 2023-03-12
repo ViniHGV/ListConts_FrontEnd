@@ -53,7 +53,7 @@ div.conteudo h4{
     background-color: #3D345C;
     border-radius: 10px;
     padding: 10px;
-    transition: background-color 2s ease-out
+    transition: background-color 2s ease-out;
 }
 
 .btnVer:hover{
