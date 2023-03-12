@@ -1,4 +1,22 @@
-.NavBar{
+div.NavBar *{
+    color: #FFF;
     background-color: #2A2E3B;
     height: 55px;
+    align-items: center;
+    display: flex;
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav h1{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+nav a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
