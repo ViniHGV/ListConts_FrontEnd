@@ -5,7 +5,10 @@
     background-color: #1C1B24;
     color: #FFF;
 }
-
+ .Geral{
+    width: 80%;
+    margin: auto;
+ }
 .title{
     height: 200px;
     text-align: center;

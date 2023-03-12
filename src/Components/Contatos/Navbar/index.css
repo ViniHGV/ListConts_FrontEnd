@@ -9,14 +9,44 @@ div.NavBar *{
 nav{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 nav h1{
-    margin-left: 20px;
+    margin-left: 10%;
     margin-right: 10px;
 }
 
 nav a{
     margin-left: 10px;
     text-decoration: none;
+}
+
+nav form{
+    padding: 20px;
+}
+
+.Procurar{
+    height: 50px;
+}
+
+form input{
+    border: 1px solid #5c5c5c;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+form button{
+    border: 1px solid #5c5c5c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.NavBar .button{
+    margin-left: 59%;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: rgb(29, 90, 70);
+    border: none;
+    padding: 5px 20px;
 }
 

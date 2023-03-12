@@ -18,7 +18,7 @@ function ListContacts(){
   }, [])
 
 
-  return (<>
+  return (<div className="Geral">
     <div className='title'><h1>ListConts</h1></div>
     <div className='pagContatos'>
       {Contatos.length === 0 ? <p>Carregando ...</p> : (
@@ -34,7 +34,7 @@ function ListContacts(){
         ))
       )}
     </div>
-  </>
+  </div>
   );
 }
 export default ListContacts
