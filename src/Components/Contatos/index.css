@@ -1,0 +1,72 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1B24;
+    color: #FFF;
+}
+
+.title{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .title h1{
+    font-size: 100px;
+}
+.pagContatos{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+}
+.conteudo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #2A2E3B;
+}
+
+div.conteudo h1{
+    background-color: #2A2E3B;
+}
+div.conteudo h4{
+    background-color: #2A2E3B;
+}
+.img{
+    border-radius: 100%;
+    width: 265px;
+    height: 265px;
+    background: no-repeat center;
+    background-size: cover; 
+}
+.btnVer{
+    border: none;
+    background-color: #3D345C;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 2s ease-out
+}
+
+.btnVer:hover{
+    background-color: #6B618F;
+}
+
+.contato{
+    margin-top: 100px;
+    background-color: #2A2E3B;
+    border: 1px solid #676767;
+    border-radius: 5px;
+    width: 370px;
+    padding: 20px;
+    text-align: center;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
