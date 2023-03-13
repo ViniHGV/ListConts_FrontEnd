@@ -17,7 +17,7 @@ div.containerInputs h1{
     margin-top: 60px;
     background-color: #2A2E3B;
     border-radius: 5px;
-    width: 50%;
+    width: 30%;
     height: 600px;
 }
 .containerInputs *{
@@ -64,4 +64,11 @@ div.containerInputs form{
 }
 .btnFormCls:hover{
     background-color: #861b1b;
+}
+
+@media(max-width:987px){
+    .containerInputs{
+        width: 60%;
+        height: 600px;
+    }
 }
