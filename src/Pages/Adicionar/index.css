@@ -26,7 +26,6 @@ div.containerInputs h1{
 
 .inputAdd{
     width: 100%;
-    margin-top: 20px;
     background-color: #464a57;
     border: none;
     border-radius: 10px;
@@ -53,6 +52,7 @@ div.containerInputs form{
 .btnFormSub:hover{
     background-color: #277037;
 }
+
 
 .btnFormCls{
     margin-top: 20px;
