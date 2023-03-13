@@ -60,4 +60,8 @@ div.containerInputs form{
     background-color: #c94747;
     height: 50px;
     border-radius: 10px;
+    transition: backgroud-color 2s ease-out;
+}
+.btnFormCls:hover{
+    background-color: #861b1b;
 }
