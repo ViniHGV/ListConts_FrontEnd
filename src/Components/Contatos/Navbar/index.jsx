@@ -6,10 +6,12 @@ export function Navbar() {
     return (
         <div className="NavBar">
             <nav>
-                <h1><a href="">ListCont</a></h1>
-                <a href="">Pagina inicial</a>
-                <a href="#">Contato</a>
+                <div className="SubBar">
+                <h1 className="TitleNav">ListConts</h1>
+                <a href="" className="LinkNav">Página inicial</a>
+                <a href="" className="LinkNav">Contato</a>
                 <button className="button"> + Contato</button>
+                </div>
             </nav>
         </div>
     )

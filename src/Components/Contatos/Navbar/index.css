@@ -1,4 +1,10 @@
-div.NavBar *{
+.NavBar *{
+    color: #FFF;
+    background-color: #2A2E3B;
+    align-items: center;
+    display: flex;
+}
+.NavBar{
     color: #FFF;
     background-color: #2A2E3B;
     height: 55px;
@@ -11,28 +17,44 @@ nav{
     flex-direction: row;
     width: 100%;
 }
-nav h1{
+.TitleNav{
     margin-left: 10%;
     margin-right: 10px;
+    color: #6038f1;
 }
 
-nav a{
+.LinkNav{
     margin-left: 10px;
+    height: 5px;
     text-decoration: none;
+    transition: color 1s ease-out;
 }
 
-div.NavBar .button{
-    margin-left: 59%;
+.LinkNav:hover{
+    color: #6038f1 ;
+}
+
+
+.SubBar{
+    height: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+
+.button{
     margin-right: 40px;
+    margin-left: 40%;
     border-radius: 20px;
-    background-color: rgb(29, 90, 70);
+    background-color: #47C963;
+    height: 30px;
     border: none;
-    padding: 5px 20px;
-    transition: background-color 2s ease-out;
+    padding: 20px 45px;
+    transition: background-color 1s ease-out;
 }
 
-div.NavBar .button:hover{
-    background-color:rgb(20, 80, 70);
+.button:hover{
+    background-color:#36994B;
 }
 
 
