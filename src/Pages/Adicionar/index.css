@@ -1,0 +1,52 @@
+.containerLogin{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.containerInputs h1{
+    margin-bottom: 10%;
+}
+.containerInputs{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    background-color: #2A2E3B;
+    border-radius: 5px;
+    width: 50%;
+    height: 600px;
+}
+.containerInputs *{
+    background-color: #2A2E3B;
+}
+
+.inputAdd{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #464a57;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+}
+div.containerInputs form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttonsForm{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.btnForm{
+    margin-top: 10px;
+    border: none;
+    background-color: #47C963;
+    height: 50px;
+    border-radius: 10px;
+}
