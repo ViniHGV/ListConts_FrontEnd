@@ -14,8 +14,8 @@ export function Adicionar() {
                         <input type="text" className="inputAdd" />
                         <input type="text" className="inputAdd" />
                         <div className="buttonsForm">
-                        <button type="submit" className="btnForm">Adicionar</button>
-                        <button type="submit" className="btnForm">Limpar</button>
+                        <button type="submit" className="btnFormSub">Adicionar</button>
+                        <button type="submit" className="btnFormCls">Limpar</button>
                         </div>
                     </form>
                 </div>
