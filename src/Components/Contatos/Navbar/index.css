@@ -43,6 +43,7 @@ nav{
 
 
 .button{
+    text-decoration: none;
     margin-right: 40px;
     margin-left: 40%;
     border-radius: 20px;
@@ -50,11 +51,12 @@ nav{
     height: 30px;
     border: none;
     padding: 20px 45px;
-    transition: background-color 1s ease-out;
+    transition: background-color 2s ease-out;
 }
 
 .button:hover{
     background-color:#36994B;
+    color: #FFF;
 }
 
 
