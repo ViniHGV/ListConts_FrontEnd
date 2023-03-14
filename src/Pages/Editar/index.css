@@ -40,33 +40,33 @@ div.containerInputs form{
     flex-direction: column;
     justify-content: center;
 }
-.buttonsForm{
+.buttonsFormEdt{
     margin-top: 10%;
-    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
 }
-.btnFormSub{
-    border: none;
-    background-color: #47C963;
+.btnFormEdt{
+    border: 1px solid #1abd5e;
     height: 50px;
+    color: #ffffff;
+    background-color: #d4d4d4;
     border-radius: 10px;
     transition: background-color 2s ease-out;
 }
-.btnFormSub:hover{
+.btnFormEdt:hover{
     background-color: #277037;
 }
 
 
-.btnFormCls{
+.btnFormClsEdt{
     margin-top: 20px;
-    border: none;
+    border: 1px solid #fc2f2f;
     background-color: #c94747;
     height: 50px;
     border-radius: 10px;
     transition: background-color 2s ease-out;
 }
-.btnFormCls:hover{
+.btnFormClsEdt:hover{
     background-color: #940000;
 }
 .error-message{

@@ -40,9 +40,9 @@ export function Editar() {
                         <label htmlFor="" className="lblInput">Telefone do Contato</label>
                         <input type="text" className="inputAdd" name="telefone" {...register("telefone")} placeholder="Digite o Telefone do Contato:" />
                         <strong className="error-message">{errors.telefone?.message}</strong>
-                        <div className="buttonsForm">
-                        <button type="submit" className="btnFormSub">Adicionar</button>
-                        <button type="submit" className="btnFormCls">Limpar</button>
+                        <div className="buttonsFormEdt">
+                        <button type="submit" className="btnFormEdt">Editar</button>
+                        <button type='reset' className="btnFormClsEdt">Limpar</button>
                         </div>
                     </form>
                 </div>

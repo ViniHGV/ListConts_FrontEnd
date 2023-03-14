@@ -42,7 +42,6 @@ div.containerInputs form{
 }
 .buttonsForm{
     margin-top: 10%;
-    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
 }
