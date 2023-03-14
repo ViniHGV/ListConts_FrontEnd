@@ -53,7 +53,8 @@ div.conteudo h4{
     border: none;
     background-color: #3D345C;
     border-radius: 10px;
-    padding: 10px;
+    width: 80%;
+    height: 40px;
     transition: background-color 2s ease-out;
 }
 
@@ -73,6 +74,7 @@ div.conteudo h4{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 @media(max-width:1100px) {

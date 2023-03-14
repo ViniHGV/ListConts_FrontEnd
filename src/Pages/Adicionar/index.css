@@ -74,6 +74,6 @@ div.containerInputs form{
 }
 @media(max-width:1100px){
     .containerInputs{
-        width: 60%;
+        width: 50%;
     }
 }
