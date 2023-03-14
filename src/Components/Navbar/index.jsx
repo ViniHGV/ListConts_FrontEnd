@@ -10,7 +10,7 @@ export function Navbar() {
                 <div className="SubBar">
                 <h1 className="TitleNav">ListConts</h1>
                 <Link to='/' className="LinkNav">Página inicial</Link>
-                <a href="/" className="LinkNav">Contatos</a>
+                <Link to="/contatos" className="LinkNav">Contatos</Link>
                 <Link to='/adicionar' className="button"> + Contato</Link>
                 </div>
             </nav>

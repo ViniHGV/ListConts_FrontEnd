@@ -1,0 +1,66 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1B24;
+    color: #FFF;
+}
+ .Geral{
+    width: 80%;
+    margin: auto;
+ }
+.title{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .title h1{
+    font-size: 100px;
+    color: #6038f1;
+}
+.pagContatos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.conteudoHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #2A2E3B;
+}
+.conteudoHome p{
+    background-color: #2A2E3B;
+}
+
+.React *{
+    background-color: #2A2E3B;
+    margin: 0;
+}
+
+div.conteudoHome h1{
+    background-color: #2A2E3B;
+    margin-left: 10px;
+}
+div.conteudoHome h4{
+    background-color: #2A2E3B;
+    margin-left: 10px;
+}
+
+
+@media(max-width:1100px) {
+    .pagContatos{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

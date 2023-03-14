@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../../Components/Contatos/Navbar";
+import { Navbar } from "../../Components/Navbar";
 import './index.css'
 import { useForm } from "react-hook-form";
 import {yupResolver} from '@hookform/resolvers/yup'

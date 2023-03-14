@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import './index.css'
-import { Navbar } from "../../Components/Contatos/Navbar";
+import { Navbar } from "../../Components/Navbar";
 import { Link } from "react-router-dom";
 
 function ListContacts() {
