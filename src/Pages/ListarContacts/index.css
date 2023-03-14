@@ -50,6 +50,11 @@ div.conteudo h4{
     background-size: cover; 
 }
 .btnEdit{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     background-color: #48348f;
     border-radius: 10px;
@@ -60,9 +65,15 @@ div.conteudo h4{
 
 .btnEdit:hover{
     background-color: #342470;
+    color: #FFF;
 }
 
 .btnExc{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
     border: none;
     background-color: #862958;
@@ -74,6 +85,7 @@ div.conteudo h4{
 
 .btnExc:hover{
     background-color: #5c1b3b;
+    color: #FFF;
 }
 
 .contato{
