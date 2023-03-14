@@ -67,10 +67,10 @@ div.containerInputs form{
     transition: background-color 2s ease-out;
 }
 .btnFormCls:hover{
-    background-color: #861b1b;
+    background-color: #940000;
 }
 .error-message{
-    color: red;
+    color: rgb(255, 0, 0);
 }
 @media(max-width:1100px){
     .containerInputs{
