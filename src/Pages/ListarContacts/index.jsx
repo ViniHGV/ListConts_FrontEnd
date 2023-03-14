@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import './index.css'
 import { Navbar } from "../../Components/Contatos/Navbar";
+import { Link } from "react-router-dom";
 
 function ListContacts() {
   const [Contatos, setContatos] = useState([]);
@@ -33,8 +34,8 @@ function ListContacts() {
                   <h1>{contato.nome}</h1>
                   <h4>Telefone: {contato.telefone}</h4>
                 </div>
-                <button className='btnEdit'>Editar Contato</button>
-                <button className='btnExc'>Excluir Contato</button>
+                <Link to='/editar' className='btnEdit'>Editar Contato</Link>
+                <Link to='/excluir' className='btnExc'>Excluir Contato</Link>
               </div>
             ))
           )}
