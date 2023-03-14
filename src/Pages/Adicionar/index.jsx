@@ -12,9 +12,9 @@ export function Adicionar() {
                     <form action="" className="formAdd">
                         <label htmlFor="">Nome do Contato</label>
                         <input type="text" className="inputAdd" />
-                        <label htmlFor="">Url da imagem</label>
+                        <label htmlFor=""className="lblInput">Url da imagem</label>
                         <input type="text" className="inputAdd" />
-                        <label htmlFor="">Telefone do Contato</label>
+                        <label htmlFor="" className="lblInput">Telefone do Contato</label>
                         <input type="text" className="inputAdd" />
                         <div className="buttonsForm">
                         <button type="submit" className="btnFormSub">Adicionar</button>
