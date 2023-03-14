@@ -1,8 +1,13 @@
 import React from "react";
 import { Navbar } from "../../Components/Contatos/Navbar";
 import './index.css'
+import { useForm } from "react-hook-form";
 
 export function Adicionar() {
+    const { register, handleSubmit, formState: { errors }}  = useForm()
+
+    //const addPost = data => console.log(data)
+
     return (
         <>
             <Navbar />
