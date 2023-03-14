@@ -53,20 +53,20 @@ div.containerInputs form{
     transition: background-color 2s ease-out;
 }
 .btnFormSub:hover{
-    background-color: #277037;
+    background-color: #379e4e;
 }
 
 
 .btnFormCls{
     margin-top: 20px;
     border: none;
-    background-color: #c94747;
+    background-color: #adadad;
     height: 50px;
     border-radius: 10px;
     transition: background-color 2s ease-out;
 }
 .btnFormCls:hover{
-    background-color: #940000;
+    background-color: #777777;
 }
 .error-message{
     color: rgb(255, 0, 0);

@@ -41,8 +41,8 @@ export function Editar() {
                         <input type="text" className="inputAdd" name="telefone" {...register("telefone")} placeholder="Digite o Telefone do Contato:" />
                         <strong className="error-message">{errors.telefone?.message}</strong>
                         <div className="buttonsFormEdt">
-                        <button type="submit" className="btnFormEdt">Editar</button>
-                        <button type='reset' className="btnFormClsEdt">Limpar</button>
+                        <button type="submit" className="btnEdtCont">Editar</button>
+                        <button type='reset' className="btnFormCls">Limpar</button>
                         </div>
                     </form>
                 </div>

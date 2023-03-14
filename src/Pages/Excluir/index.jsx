@@ -41,7 +41,7 @@ export function Excluir() {
                         <input type="text" className="inputAdd" name="telefone" {...register("telefone")} placeholder="Digite o Telefone do Contato:" />
                         <strong className="error-message">{errors.telefone?.message}</strong>
                         <div className="buttonsForm">
-                        <button type="submit" className="btnFormSub">Adicionar</button>
+                        <button type="submit" className="btnFormExc">Excluir</button>
                         <button type="submit" className="btnFormCls">Limpar</button>
                         </div>
                     </form>

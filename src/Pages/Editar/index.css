@@ -1,73 +1,18 @@
-.containerLogin{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-div.containerInputs h1{
-    margin-bottom: 5%;
-}
-.containerInputs{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 60px;
-    background-color: #2A2E3B;
-    border-radius: 5px;
-    width: 30%;
-}
-.containerInputs *{
-    background-color: #2A2E3B;
-}
-.lblInput{
-    margin-top: 10px;
-}
-.inputAdd{
-    width: 100%;
-    background-color: #464a57;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    color: #FFF;
-}
-
-div.containerInputs form{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .buttonsFormEdt{
     margin-top: 10%;
     display: flex;
     flex-direction: column;
 }
-.btnFormEdt{
-    border: 1px solid #1abd5e;
+.containerInputs .btnEdtCont {
+    border: none;
     height: 50px;
     color: #ffffff;
-    background-color: #d4d4d4;
+    background-color: #42c8e0;
     border-radius: 10px;
     transition: background-color 2s ease-out;
 }
-.btnFormEdt:hover{
-    background-color: #277037;
-}
-
-
-.btnFormClsEdt{
-    margin-top: 20px;
-    border: 1px solid #fc2f2f;
-    background-color: #c94747;
-    height: 50px;
-    border-radius: 10px;
-    transition: background-color 2s ease-out;
-}
-.btnFormClsEdt:hover{
-    background-color: #940000;
+.btnEdtCont:hover{
+    background-color: #359bad;
 }
 .error-message{
     color: rgb(255, 0, 0);
