@@ -49,17 +49,31 @@ div.conteudo h4{
     background: no-repeat center;
     background-size: cover; 
 }
-.btnVer{
+.btnEdit{
     border: none;
-    background-color: #3D345C;
+    background-color: #48348f;
     border-radius: 10px;
     width: 80%;
     height: 40px;
     transition: background-color 2s ease-out;
 }
 
-.btnVer:hover{
-    background-color: #6B618F;
+.btnEdit:hover{
+    background-color: #342470;
+}
+
+.btnExc{
+    margin-top: 10px;
+    border: none;
+    background-color: #862958;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    transition: background-color 2s ease-out;
+}
+
+.btnExc:hover{
+    background-color: #5c1b3b;
 }
 
 .contato{

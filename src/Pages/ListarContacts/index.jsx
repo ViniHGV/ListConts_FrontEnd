@@ -33,7 +33,8 @@ function ListContacts() {
                   <h1>{contato.nome}</h1>
                   <h4>Telefone: {contato.telefone}</h4>
                 </div>
-                <button className='btnVer'>Ver detalhes</button>
+                <button className='btnEdit'>Editar Contato</button>
+                <button className='btnExc'>Excluir Contato</button>
               </div>
             ))
           )}
