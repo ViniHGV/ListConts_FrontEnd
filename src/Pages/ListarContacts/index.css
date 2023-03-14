@@ -22,8 +22,10 @@ div .title h1{
     color: #6038f1;
 }
 .pagContatos{
-    text-align: center;
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -31,6 +33,9 @@ div .title h1{
     text-align: center;
 }
 .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #2A2E3B;
@@ -38,18 +43,24 @@ div .title h1{
 
 div.conteudo h1{
     background-color: #2A2E3B;
+    margin-left: 10px;
 }
 div.conteudo h4{
     background-color: #2A2E3B;
+    margin-left: 10px;
 }
+
 .img{
     border-radius: 100%;
     width: 265px;
     height: 265px;
     background: no-repeat center;
+    margin-right: 20px;
     background-size: cover; 
 }
 .btnEdit{
+    margin-top: 20px;
+    margin-left: 20px;
     text-decoration: none;
     color: #FFF;
     display: flex;
@@ -70,6 +81,7 @@ div.conteudo h4{
 
 .btnExc{
     text-decoration: none;
+    margin-left: 20px;
     color: #FFF;
     display: flex;
     align-items: center;
@@ -93,12 +105,11 @@ div.conteudo h4{
     background-color: #2A2E3B;
     border: 0px solid #4f4681;
     border-radius: 5px;
-    width: 370px;
     padding: 20px;
     text-align: center;
     margin: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
