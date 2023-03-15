@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage/>}/>
           <Route path='/contatos' element={<ListContacts/>}/>
-          <Route path='/editar' element={<Editar/>}/>
+          <Route path='/editar/:id' element={<Editar/>}/>
           <Route path='/excluir' element={<Excluir/>}/>
           <Route path='/adicionar' element={<Adicionar/>}/>
         </Routes>
