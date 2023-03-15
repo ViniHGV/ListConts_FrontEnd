@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "../../Components/Navbar";
 import './index.css'
 import { useForm } from "react-hook-form";
 import {yupResolver} from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import axios from "axios";
+
+import {useParams} from 'react-router-dom'
 
 
 
@@ -16,7 +18,17 @@ const validationPost = yup.object().shape({
 
 
 export function Editar() {
-    const { register, handleSubmit, formState: { errors }}  = useForm({
+
+    const {id} = useParams()
+
+    useEffect(() => {
+        axios.get(`https://localhost:7096/Contato/ObterPorID${id}`)
+        .then((Response) => {
+            reset(Response.data)
+        })
+    },[])
+
+    const { register, handleSubmit, formState: { errors }, reset}  = useForm({
         resolver: yupResolver(validationPost)
     })
 
