@@ -5,7 +5,6 @@ import { useForm } from "react-hook-form";
 import {yupResolver} from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import axios from "axios";
-
 import {useParams} from 'react-router-dom'
 
 
@@ -16,6 +15,7 @@ const validationPost = yup.object().shape({
     telefone: yup.string().required("O Telefone é obrigatório !").max(13, "O Telefone tem que ter menos de 13 Caracteres")
 })
 
+//let history = useHistory()
 
 export function Editar() {
 
@@ -32,9 +32,10 @@ export function Editar() {
         resolver: yupResolver(validationPost)
     })
 
-    const addPost = data => axios.post("https://localhost:7096/Contato/CriarContato", data)
+    const addPost = data => axios.put(`https://localhost:7096/Contato/AtualizarContato${id}`, data)
     .then(() => {
-        console.log("Cadastrado com sucesso !")
+        console.log("Editado com sucesso !")
+       // history.push("/")
     })
     return (
         <>
