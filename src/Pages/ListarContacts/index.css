@@ -27,6 +27,7 @@ div .title h1{
     text-align: center;
     align-items: center;
     justify-content: center;
+
 }
 
 .title{
@@ -39,6 +40,7 @@ div .title h1{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #2A2E3B;
+
 }
 
 div.conteudo h1{
@@ -112,6 +114,10 @@ div.conteudo h4{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+}
+.contato:hover{
+    box-shadow: 10px 10px 10px  #3b3f4d;
 }
 
 @media(max-width:1100px) {
