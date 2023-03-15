@@ -21,7 +21,6 @@ function ListContacts() {
 
   function deletarContato(id){
       axios.delete(`https://localhost:7096/Contato/DeletarContato${id}`)
-
       setContatos(Contatos.filter(contato => contato.id !== id))
   }
 

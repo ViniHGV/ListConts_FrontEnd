@@ -32,7 +32,6 @@ function HomePage() {
             <div className="buttonsHome">
               <Link to='/contatos'className="buttonsHmL">Lista de contatos</Link>
               <Link to='adicionar'className="buttonsHmA">Adicionar contato</Link>
-              <Link to='excluir'className="buttonsHmC">Excluir Contato</Link>
             </div>
           </div>
         </div>
