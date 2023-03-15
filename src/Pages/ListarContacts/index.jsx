@@ -34,7 +34,7 @@ function ListContacts() {
                   <h1>{contato.nome}</h1>
                   <h4>Telefone: {contato.telefone}</h4>
                   <Link to={{pathname: `/editar/${contato.id}`}} className='btnEdit'>Editar Contato</Link>
-                <Link to='/excluir' className='btnExc'>Excluir Contato</Link>
+                <Link to='/excluir' className='btnExc' onClick={() => deletarContato(contato.id)}>Excluir Contato</Link>
                 </div>
               </div>
             ))

@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import {yupResolver} from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import axios from "axios";
+//import { useHistory } from 'react-router-dom'
 
 
 
@@ -20,9 +21,12 @@ export function Adicionar() {
         resolver: yupResolver(validationPost)
     })
 
+    //let history = useHistory()
+    
     const addPost = data => axios.post("https://localhost:7096/Contato/CriarContato", data)
     .then(() => {
         console.log("Cadastrado com sucesso !")
+        //history.push("/")
     })
     return (
         <>

@@ -5,7 +5,8 @@ import { useForm } from "react-hook-form";
 import {yupResolver} from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import axios from "axios";
-import {useParams} from 'react-router-dom'
+import { useParams } from 'react-router-dom'
+//import { useHistory } from 'react-router-dom';
 
 
 
@@ -35,7 +36,7 @@ export function Editar() {
     const addPost = data => axios.put(`https://localhost:7096/Contato/AtualizarContato${id}`, data)
     .then(() => {
         console.log("Editado com sucesso !")
-       // history.push("/")
+        //history.push("/")
     })
     return (
         <>
