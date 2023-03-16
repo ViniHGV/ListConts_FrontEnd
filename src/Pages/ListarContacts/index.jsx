@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import './index.css'
 import { Navbar } from "../../Components/Navbar";
 import { Link } from "react-router-dom";
-
+import { Alert } from "../../Components/Alerta";
 
 function ListContacts() {
   const [Contatos, setContatos] = useState([]);
@@ -31,6 +31,7 @@ function ListContacts() {
       <Navbar />
       <div className="Geral">
         <div className='title'><h1>ListConts</h1></div>
+        <Alert/>
         <div className='pagContatos'>
           {Contatos.length === 0 ? <p>Carregando ...</p> : (
             Contatos.map((contato) => (

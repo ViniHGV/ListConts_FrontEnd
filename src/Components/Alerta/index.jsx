@@ -1,7 +1,9 @@
+import styles from './index.css'
+
 export function Alert ({type, msg}) {
     return(
-        <>
-        <p>Message</p>
-        </>
+        <div className='AlertMsg'>
+        <p className={`${styles.alert} ${styles[type]}`}>{msg}</p>
+        </div>
     )
 }
