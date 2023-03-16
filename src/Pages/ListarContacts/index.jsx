@@ -31,7 +31,7 @@ function ListContacts() {
       <Navbar />
       <div className="Geral">
         <div className='title'><h1>ListConts</h1></div>
-        <Alert/>
+        <Alert msg="Esta é uma mensagem de Teste" type="error"/>
         <div className='pagContatos'>
           {Contatos.length === 0 ? <p>Carregando ...</p> : (
             Contatos.map((contato) => (
