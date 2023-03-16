@@ -6,6 +6,7 @@ import {yupResolver} from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import axios from "axios";
 import { useParams, useNavigate } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 
@@ -31,12 +32,18 @@ export function Editar() {
     const { register, handleSubmit, formState: { errors }, reset}  = useForm({
         resolver: yupResolver(validationPost)
     })
+
+
+
     const navigate = useNavigate()
 
     const addPost = data => axios.put(`https://localhost:7096/Contato/AtualizarContato${id}`, data)
     .then(() => {
         console.log("Editado com sucesso !")
         navigate("/contatos")
+    })
+    .then(()=> {
+        console.log("Editado com sucesso !")
     })
 
   
