@@ -1,29 +1,6 @@
-.AlertMsg{
-    text-align: center;
-    height: 80px;
+.message{
+    font-size: 100px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.alert{
-    margin: 0;
-    width: 67%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(116, 206, 174);
-    border-radius: 20px;
-}
-
-.succes{
-    color: #155724;
-    background-color: aliceblue;
-}
-
-.error{
-    color: #571515;
-    background-color: rgb(255, 240, 240);
+    padding: 1em;
+    border: 1px solid #000;
 }

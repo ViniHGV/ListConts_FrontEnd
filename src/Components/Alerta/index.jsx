@@ -1,9 +1,5 @@
 import styles from './index.css'
 
-export function Alert ({type, msg}) {
-    return(
-        <div className='AlertMsg'>
-        <p className={`${styles.alert} ${styles[type]}`}>{msg}</p>
-        </div>
-    )
+export function Message ({type, msg}) {
+    return <div className={`${styles.message}`}>{msg}</div>
 }
