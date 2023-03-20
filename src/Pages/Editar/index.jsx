@@ -43,7 +43,7 @@ export function Editar() {
         navigate("/contatos")
     })
     .then(()=> {
-        console.log("Editado com sucesso !")
+        alert(`Contato ${data.nome} Editado com sucesso !`)
     })
 
   
