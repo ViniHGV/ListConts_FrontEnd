@@ -23,9 +23,9 @@ function ListContacts() {
   function deletarContato(id){
     const confirmacao = confirm(`Tem certeza que deseja deletar esse contato ?`)
     if (confirmacao == true){
-      alert(`Contato Excluido con sucesso !`)
-      /*axios.delete(`https://localhost:7096/Contato/DeletarContato${id}`)
-      setContatos(Contatos.filter(contato => contato.id !== id))*/
+      alert(`Contato Excluido com sucesso !`)
+      axios.delete(`https://localhost:7096/Contato/DeletarContato${id}`)
+      setContatos(Contatos.filter(contato => contato.id !== id))
     }
     else{
       alert(`Contato conservado !`)
