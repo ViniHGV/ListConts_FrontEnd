@@ -40,7 +40,7 @@ export function Editar() {
     const addPost = data => axios.put(`https://localhost:7096/Contato/AtualizarContato${id}`, data)
     .then(() => {
         console.log("Editado com sucesso !")
-        navigate("/contatos")
+        navigate("/contatos",{message:'Contato editado com sucesso!'})
     })
 
   

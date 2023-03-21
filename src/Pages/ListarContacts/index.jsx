@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import './index.css'
 import { Navbar } from "../../Components/Navbar";
 import { Link } from "react-router-dom";
+import { Message } from "../../Components/Message";
 
 function ListContacts() {
   const [Contatos, setContatos] = useState([]);
@@ -27,16 +28,13 @@ function ListContacts() {
       axios.delete(`https://localhost:7096/Contato/DeletarContato${id}`)
       setContatos(Contatos.filter(contato => contato.id !== id))
     }
-    else{
-      alert(`Contato conservado !`)
-    }
-
   }
 
   return (
     <>
       <Navbar />
       <div className="Geral">
+      <Message msg="Alguma coisa" style='message' type='add'/>
         <div className='title'><h1>ListConts</h1></div>
         <div className='pagContatos'>
           {Contatos.length === 0 ? <p>Carregando ...</p> : (
