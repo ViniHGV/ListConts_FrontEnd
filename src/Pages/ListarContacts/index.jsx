@@ -29,7 +29,6 @@ function ListContacts() {
   }, [])
 
 
-
   function deletarContato(id){
     const confirmacao = confirm(`Tem certeza que deseja deletar esse contato ?`)
     if (confirmacao == true){
