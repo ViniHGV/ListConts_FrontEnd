@@ -29,6 +29,7 @@ function ListContacts() {
   }, [])
 
 
+
   function deletarContato(id){
     const confirmacao = confirm(`Tem certeza que deseja deletar esse contato ?`)
     if (confirmacao == true){
@@ -53,7 +54,7 @@ function ListContacts() {
                   <h1>{contato.nome}</h1>
                   <h4>Telefone: {contato.telefone}</h4>
                   <Link to={{pathname: `/editar/${contato.id}`}} className='btnEdit'>Editar Contato</Link>
-                <button className='btnExc' onClick={() => deletarContato(contato.id)}>Excluir Contato</button>
+                  <button className='btnExc' onClick={() => deletarContato(contato.id)}>Excluir Contato</button>
                 </div>
               </div>
             ))

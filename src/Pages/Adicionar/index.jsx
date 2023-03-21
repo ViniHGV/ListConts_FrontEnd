@@ -30,6 +30,8 @@ export function Adicionar() {
             icon: 'success',
             title: 'Contato adicionado com sucesso !',
             showConfirmButton: false,
+            background: '#2A2E3B',
+            color: '#FFF',
             timer: 1500
         }))
     })
