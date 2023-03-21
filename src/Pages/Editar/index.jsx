@@ -7,6 +7,7 @@ import * as yup from 'yup'
 import axios from "axios";
 import { useParams, useNavigate } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Swal from 'sweetalert2'
 
 
 
@@ -38,9 +39,15 @@ export function Editar() {
     const navigate = useNavigate()
 
     const addPost = data => axios.put(`https://localhost:7096/Contato/AtualizarContato${id}`, data)
+
     .then(() => {
         console.log("Editado com sucesso !")
-        navigate("/contatos",{message:'Contato editado com sucesso!'})
+        navigate("/contatos", Swal.fire({
+            icon: 'success',
+            title: 'Contato Editado com sucesso !',
+            showConfirmButton: false,
+            timer: 1500
+        }))
     })
 
   

@@ -26,7 +26,12 @@ export function Adicionar() {
     const addPost = data => axios.post("https://localhost:7096/Contato/CriarContato", data)
     .then(() => {
         console.log("Cadastrado com sucesso !")
-        navigate("/contatos")
+        navigate("/contatos", Swal.fire({
+            icon: 'success',
+            title: 'Contato adicionado com sucesso !',
+            showConfirmButton: false,
+            timer: 1500
+        }))
     })
     return (
         <>

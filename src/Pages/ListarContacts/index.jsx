@@ -4,9 +4,17 @@ import { useEffect, useState } from "react";
 import './index.css'
 import { Navbar } from "../../Components/Navbar";
 import { Link } from "react-router-dom";
-import { Message } from "../../Components/Message";
+import { useLocation } from "react-router-dom";
 
 function ListContacts() {
+  const location = useLocation() 
+  let message = ''
+  //let type = ''
+  if(location.state){
+    //type = location.state.type
+    message = location.state.message
+  }
+
   const [Contatos, setContatos] = useState([]);
 
   const getPosts = async () => {
@@ -34,7 +42,7 @@ function ListContacts() {
     <>
       <Navbar />
       <div className="Geral">
-      <Message msg="Alguma coisa" style='message' type='add'/>
+      {message && <Message msg="gfhtgfh" style='message' type='add'/>}
         <div className='title'><h1>ListConts</h1></div>
         <div className='pagContatos'>
           {Contatos.length === 0 ? <p>Carregando ...</p> : (
