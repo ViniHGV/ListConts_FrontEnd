@@ -42,9 +42,6 @@ export function Editar() {
         console.log("Editado com sucesso !")
         navigate("/contatos")
     })
-    .then(()=> {
-        alert(`Contato ${data.nome} Editado com sucesso !`)
-    })
 
   
     return (
