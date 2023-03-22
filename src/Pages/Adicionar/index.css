@@ -9,8 +9,6 @@ div.containerInputs h1{
     margin-bottom: 5%;
 }
 
-
-
 .containerInputs{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -28,7 +26,7 @@ div.containerInputs h1{
 .lblInput{
     margin-top: 10px;
 }
-.inputAdd{
+.inputAddA{
     padding: 5px;
     width: 100%;
     background-color: #464a57;
@@ -38,9 +36,11 @@ div.containerInputs h1{
     color: #FFF;
 }
 
-.inputAdd:focus{
+.inputAddA:focus-visible{
     background-color: #515666;
+    outline: 1px solid  #58ff7d;
 }
+
 
 div.containerInputs form{
     width: 80%;
