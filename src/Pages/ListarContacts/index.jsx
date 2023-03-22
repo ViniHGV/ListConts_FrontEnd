@@ -5,6 +5,7 @@ import './index.css'
 import { Navbar } from "../../Components/Navbar";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import Swal from "sweetalert2";
 
 function ListContacts() {
   const location = useLocation() 
@@ -30,13 +31,36 @@ function ListContacts() {
 
 
   function deletarContato(id){
-    const confirmacao = confirm(`Tem certeza que deseja deletar esse contato ?`)
-    if (confirmacao == true){
-      alert(`Contato Excluido com sucesso !`)
-      axios.delete(`https://localhost:7096/Contato/DeletarContato${id}`)
-      setContatos(Contatos.filter(contato => contato.id !== id))
-    }
+    Swal.fire()
+    let confirmacao 
+    const confirm = Swal.fire({
+      icon: 'question',
+      title: `Excluir esse contato ?`,
+      text: "Tem certeza que deseja excluir esse contato ?",
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Deletar contato',
+      cancelButtonText: "Cancelar",
+      background: '#2A2E3B',
+      color: '#FFF'
+    })
+    .then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          icon: 'success',
+          title: 'Contato Excluido com sucesso !',
+          showConfirmButton: false,
+          background: '#2A2E3B',
+          color: '#FFF',
+          timer: 1500
+      })
+        axios.delete(`https://localhost:7096/Contato/DeletarContato${id}`)
+        setContatos(Contatos.filter(contato => contato.id !== id))
+      }
+    })
   }
+
 
   return (
     <>

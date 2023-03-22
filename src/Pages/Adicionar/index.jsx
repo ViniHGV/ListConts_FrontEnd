@@ -6,6 +6,7 @@ import {yupResolver} from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import axios from "axios";
 import { useNavigate } from 'react-router-dom'
+import Swal from "sweetalert2";
 
 
 
@@ -25,16 +26,18 @@ export function Adicionar() {
     
     const addPost = data => axios.post("https://localhost:7096/Contato/CriarContato", data)
     .then(() => {
-        console.log("Cadastrado com sucesso !")
-        navigate("/contatos", Swal.fire({
+        console.log("Editado com sucesso !")
+        navigate("/contatos", Swal.fire(),
+            Swal.fire({
             icon: 'success',
-            title: 'Contato adicionado com sucesso !',
+            title: 'Contato Adicionado com sucesso !',
             showConfirmButton: false,
             background: '#2A2E3B',
             color: '#FFF',
             timer: 1500
         }))
     })
+
     return (
         <>
             <Navbar />
