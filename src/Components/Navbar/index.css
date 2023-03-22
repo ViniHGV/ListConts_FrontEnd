@@ -21,17 +21,21 @@ nav{
 .TitleNav{
     font-family: 'Times New Roman', Times, serif;
     color: #6038f1;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .LinkNav{
-    margin-left: 10px;
-    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 55px;
     text-decoration: none;
     transition: color 1s ease-out;
 }
 
 .LinkNav:hover{
-    color: #6038f1 ;
+    color: #cec1fd ;
+    background-color: #323746;
 }
 
 .SubBar{
