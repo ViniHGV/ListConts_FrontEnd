@@ -2,16 +2,19 @@ import React from "react";
 import './index.css'
 import { Navbar } from "../../Components/Navbar";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import { useState, useEffect } from "react";
 
 
 function HomePage() {
-
+  const [foto, setFoto] = useState([])
   return (
     <>
       <Navbar />
       <div className="GeralH">
         <div className='title'><h1>ListConts</h1></div>
         <div className='pagContatosHome'>
+        <h1 className="TitleCont">Criador:  Vinicius Henrique</h1>
           <div className='conteudoHome'>
             <h1 className="TitleCont"> Objetivo do Projeto ListConts</h1>
             <p>O projeto ListConts foi criado com o objetivo de aperfeiçoar o meu conhecimento com as tecnologias:</p>
