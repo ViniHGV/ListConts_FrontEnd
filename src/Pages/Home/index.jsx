@@ -8,13 +8,24 @@ import { useState, useEffect } from "react";
 
 function HomePage() {
   const [foto, setFoto] = useState([])
+
+  const getFoto = async () => {
+    const response = await axios.get("https://api.github.com/users/ViniHGV");
+    const data = response.data;
+    setFoto(data);
+  }
+
+
+  useEffect(() => {
+    getFoto()
+  }, [])
   return (
     <>
       <Navbar />
       <div className="GeralH">
         <div className='title'><h1>ListConts</h1></div>
         <div className='pagContatosHome'>
-        <h1 className="TitleCont">Criador:  Vinicius Henrique</h1>
+        <h1 className="criador">Criador:  Vinicius Henrique <img className="imgCria" src={foto.avatar_url} alt="" /></h1>
           <div className='conteudoHome'>
             <h1 className="TitleCont"> Objetivo do Projeto ListConts</h1>
             <p>O projeto ListConts foi criado com o objetivo de aperfeiçoar o meu conhecimento com as tecnologias:</p>
