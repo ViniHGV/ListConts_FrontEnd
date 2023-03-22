@@ -13,7 +13,7 @@ function HomePage() {
         <div className='title'><h1>ListConts</h1></div>
         <div className='pagContatosHome'>
           <div className='conteudoHome'>
-            <h1 className="ReactTitle"> Objetivo do Projeto ListConts</h1>
+            <h1 className="TitleCont"> Objetivo do Projeto ListConts</h1>
             <p>O projeto ListConts foi criado com o objetivo de aperfeiçoar o meu conhecimento com as tecnologias:</p>
             <div className="React">
               <div className="ReactTitle">

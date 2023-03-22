@@ -9,10 +9,9 @@
     color: #ffffff;
     background-color: #42c8e0;
     border-radius: 10px;
-    transition: background-color 2s ease-out;
 }
 .btnEdtCont:hover{
-    background-color: #359bad;
+    background-color: #3caec2;
 }
 .error-message{
     color: rgb(255, 0, 0);

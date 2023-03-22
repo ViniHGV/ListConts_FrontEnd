@@ -72,11 +72,10 @@ div.conteudo h4{
     border-radius: 10px;
     width: 80%;
     height: 40px;
-    transition: background-color 2s ease-out;
 }
 
 .btnEdit:hover{
-    background-color: #342470;
+    background-color: #422d8b;
     color: #FFF;
 }
 
@@ -93,11 +92,10 @@ div.conteudo h4{
     border-radius: 10px;
     width: 80%;
     height: 40px;
-    transition: background-color 2s ease-out;
 }
 
 .btnExc:hover{
-    background-color: #5c1b3b;
+    background-color: #702249;
     color: #FFF;
 }
 

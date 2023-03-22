@@ -15,7 +15,9 @@
     align-items: center;
     justify-content: center;
 }
-
+.TitleCont{
+    font-family: 'Times New Roman', Times, serif;
+}
 div .title h1{
     font-size: 100px;
     color: #6038f1;
@@ -54,8 +56,8 @@ div .title h1{
 
 .ReactTitle{
     background-color: #2A2E3B;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,6 +97,7 @@ div.conteudoHome h4{
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .buttonsHmL{

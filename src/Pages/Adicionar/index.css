@@ -8,6 +8,9 @@
 div.containerInputs h1{
     margin-bottom: 5%;
 }
+
+
+
 .containerInputs{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -35,6 +38,10 @@ div.containerInputs h1{
     color: #FFF;
 }
 
+.inputAdd:focus{
+    background-color: #515666;
+}
+
 div.containerInputs form{
     width: 80%;
     display: flex;
@@ -51,7 +58,6 @@ div.containerInputs form{
     background-color: #47C963;
     height: 50px;
     border-radius: 10px;
-    transition: background-color 2s ease-out;
 }
 .btnFormSub:hover{
     background-color: #379e4e;
@@ -64,7 +70,6 @@ div.containerInputs form{
     background-color: #adadad;
     height: 50px;
     border-radius: 10px;
-    transition: background-color 2s ease-out;
 }
 .btnFormCls:hover{
     background-color: #777777;
