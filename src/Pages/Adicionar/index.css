@@ -58,6 +58,7 @@ div.containerInputs form{
     background-color: #47C963;
     height: 50px;
     border-radius: 10px;
+    transition: background-color 1s ease-out;
 }
 .btnFormSub:hover{
     background-color: #379e4e;
@@ -70,6 +71,7 @@ div.containerInputs form{
     background-color: #adadad;
     height: 50px;
     border-radius: 10px;
+    transition: background-color 1s ease-out;
 }
 .btnFormCls:hover{
     background-color: #777777;
