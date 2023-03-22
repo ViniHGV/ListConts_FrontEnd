@@ -15,12 +15,11 @@
 nav{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 .TitleNav{
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 10%;
-    margin-right: 10px;
     color: #6038f1;
 }
 
@@ -35,19 +34,18 @@ nav{
     color: #6038f1 ;
 }
 
-
 .SubBar{
-    height: 20px;
-    width: 80%;
+    height: 30px;
+    width: 100%;
     margin: auto;
+    display: flex;
+    justify-content:space-around;
 }
 
 
 .button{
     text-decoration: none;
     text-align: center;
-    margin-right: 40px;
-    margin-left: 40%;
     border-radius: 20px;
     background-color: #47C963;
     height: 30px;
@@ -61,6 +59,7 @@ nav{
     color: #FFF;
     
 }
+
 
 
 
