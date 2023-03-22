@@ -9,12 +9,12 @@ export function Navbar() {
             <nav>
                 <div className="SubBar">
                 <div>
-                <h1 className="TitleNav">ListConts</h1>
+                <Link to='/contatos'className="TitleNav">ListConts</Link>
                 <Link to='/' className="LinkNav">Página inicial</Link>
                 <Link to="/contatos" className="LinkNav">Contatos</Link>
                 </div>
                 <div className="Navg">
-                <Link to='/adicionar' className="button"> + Contato</Link>
+                <Link to='/adicionar' className="button"><p className="imgAddC">+</p> Contato</Link>
                 </div>
                 </div>
             </nav>

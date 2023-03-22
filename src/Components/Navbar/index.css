@@ -10,11 +10,13 @@
     height: 55px;
     align-items: center;
     display: flex;
+    align-items: center;
 }
 
 nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 80%;
     margin: auto;
 }
@@ -23,8 +25,12 @@ nav{
     color: #6038f1;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 33px;
+    text-decoration: none;
 }
-
+.TitleNav:hover{
+    color: #6038f1;
+}
 .LinkNav{
     padding-left: 10px;
     padding-right: 10px;
@@ -44,24 +50,39 @@ nav{
     margin: auto;
     display: flex;
     justify-content:space-around;
+    align-items: center;
 }
 
+.imgAddC{
+    display: flex;
+    justify-content: center;
+    background-color: #379e4e;
+    color: #FFF;
+    border-radius: 100%;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
 
 .button{
+    color: #FFF;
     text-decoration: none;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
-    background-color: #47C963;
     height: 30px;
-    border: none;
-    padding: 20px 45px;
+    border: 1px solid #379e4e;
+    padding: 20px 30px;
     transition: background-color 1s ease-out;
 }
 
 .button:hover{
-    background-color:#379e4e;
+    background-color:#32463b;
     color: #FFF;
-    
+    border: 1px solid #4ddf6d;
 }
 
 
