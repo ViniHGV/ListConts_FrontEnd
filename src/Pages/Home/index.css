@@ -14,7 +14,7 @@
 }
 .GeralH{
     font-family: 'Roboto Condensed';
-    width: 80%;
+    width: 55%;
     margin: auto;
  }
 .title{
@@ -166,15 +166,32 @@ div.conteudoHome h4{
     background-color: rgb(131, 49, 49);
     color: #FFF;
 }
-@media(min-width:1100px) {
-    .conteudoHome{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 70%;
-        text-align: center;
-        padding: 20px;
+
+
+@media screen {
+    @media(min-width:700px) {
+        .conteudoHome{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+    }    
+    @media(min-width:1200px) {
+        .conteudoHome{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 60%;
+            text-align: center;
+            padding: 20px;
+        }
     }
 }
+
