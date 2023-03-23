@@ -32,8 +32,3 @@
 .error-message{
     color: rgb(255, 0, 0);
 }
-@media(max-width:1100px){
-    .containerInputs{
-        width: 50%;
-    }
-}
