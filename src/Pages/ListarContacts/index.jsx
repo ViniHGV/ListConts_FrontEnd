@@ -74,7 +74,7 @@ function ListContacts() {
               <div className='contato' key={contato.id}>
                 <img src={contato.url_Img} alt="" className='img' />
                 <div className='conteudo'>
-                  <h1>{contato.nome}</h1>
+                  <h1 className="Namecontac">{contato.nome}</h1>
                   <h4>Telefone: {contato.telefone}</h4>
                   <Link to={{pathname: `/editar/${contato.id}`}} className='btnEdit'>Editar Contato</Link>
                   <button className='btnExc' onClick={() => deletarContato(contato.id)}>Excluir Contato</button>

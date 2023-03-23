@@ -25,9 +25,9 @@ function HomePage() {
       <div className="GeralH">
         <div className='title'><h1>ListConts</h1></div>
         <div className='pagContatosHome'>
-        <h1 className="criador">Criador:  Vinicius Henrique <img className="imgCria" src={foto.avatar_url} alt="" /></h1>
           <div className='conteudoHome'>
             <h1 className="TitleCont"> Objetivo do Projeto ListConts</h1>
+            <h5 className="criador">Desenvolvido por <b>Vinicius Henrique </b><img className="imgCria" src={foto.avatar_url} alt="" />.</h5>
             <p>O projeto ListConts foi criado com o objetivo de aperfeiçoar o meu conhecimento com as tecnologias:</p>
             <div className="React">
               <div className="ReactTitle">

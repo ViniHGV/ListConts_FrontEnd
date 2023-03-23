@@ -100,7 +100,9 @@ div.conteudo h4{
     background-color: #702249;
     color: #FFF;
 }
-
+.Namecontac{
+    max-width: 200px;
+}
 .contato{
     margin-top: 100px;
     background-color: #2A2E3B;

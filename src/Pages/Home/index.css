@@ -4,7 +4,13 @@
     color: #FFF;
 }
 .criador{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Condensed';
+    margin: 0;
+}
+.imgCria{
+    width: 25px;
+    border-radius: 100%;
+    margin-right: 3px;
 }
 .GeralH{
     font-family: 'Roboto Condensed';
@@ -32,6 +38,7 @@ div .title h1{
     align-items: center;
     justify-content: center;
 }
+
 .conteudoHome{
     display: flex;
     flex-direction: column;
@@ -159,7 +166,7 @@ div.conteudoHome h4{
     background-color: rgb(131, 49, 49);
     color: #FFF;
 }
-@media(max-width:1100px) {
+@media(min-width:1100px) {
     .conteudoHome{
         text-align: center;
         display: flex;
